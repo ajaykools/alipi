@@ -1,0 +1,34 @@
+/* This is just an example.  You shouldn't do this. */
+#a11ypi-hello
+{
+  color: red ! important;
+}
+#a11ypi-toolbar-button
+{
+  list-style-image: url("chrome://a11ypi/skin/a1icon.png"); 
+  -moz-image-region: rect(0px 20px 24px 0px); 
+}
+#a11ypi-toolbar-button:hover
+{
+  -moz-image-region: rect(0px 20px 24px  0px);
+}
+[iconsize="small"] #a11ypi-toolbar-button
+{
+  -moz-image-region: rect(0px 20px 24px 0px);
+}
+[iconsize="small"] #a11ypi-toolbar-button:hover
+{
+  -moz-image-region: rect(0px 20px 24px 0px);
+}
+#a11ypi-browse,#re-narrate-button
+{
+margin-right: 300px;
+}
+#nbox
+{
+    max-height: 0px;
+}
+/* #server-1,#server-2 */
+/* { */
+/* padding-left: 20px; */
+/* } */

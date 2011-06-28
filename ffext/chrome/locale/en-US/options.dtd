@@ -1,0 +1,4 @@
+<!ENTITY prefwindow.title "a11ypi preferences">
+<!ENTITY pane1.title "a11ypi preferences">
+<!ENTITY stringpref.label "Enter your language preference">
+<!ENTITY stringpref.accesskey "S">
