@@ -93,7 +93,7 @@ var a11ypi = {
 			    el.setAttribute('width','100%');
 			    g = temp.innerHTML.replace('<iframe id="MyFrame" src="http://devel.virtual-labs.ac.in/alipi/rich/index.html?parent='+content.window.location.href+'&amp;id='+temp.id+'" width="100%"></iframe>','');
 			    h = g.replace(/\s{2,}/g,"");
-				alert("You Have selected "+h);
+			    alert("You Have selected "+h);
 			    f = el.contentDocument.getElementById('richText');
 			    if( tName == 'UL' || tName == 'OL')
 			    {
@@ -104,8 +104,7 @@ var a11ypi = {
 				f.innerHTML = content.document.getElementById(temp.id).innerHTML;
 			    }
 
-			    a = content.document.getElementById('MyFrame');
-			    a.scrollIntoView();
+			    content.document.getElementById('MyFrame').scrollIntoView();
 			    break;
 			}
 		    }
