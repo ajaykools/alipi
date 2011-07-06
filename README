@@ -2,3 +2,6 @@ Release Notes:
 
 Version 1.0:
 	Sidebar has been removed for usability reasons.
+
+Known Issues:
+      Right clicking on a link, causes to re-narrate.
