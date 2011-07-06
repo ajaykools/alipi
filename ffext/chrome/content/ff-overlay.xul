@@ -8,20 +8,17 @@
   <stringbundleset id="stringbundleset">
     <stringbundle id="a11ypi-strings" src="chrome://a11ypi/locale/overlay.properties"/>
   </stringbundleset>
-    <toolbox id="navigator-toolbox">
-    <toolbar  label="&a11ypiToolbarButton.label;">
-      <toolbarbutton id="a11ypi-toolbar-button" label="&a11ypiToolbarButton.label;" tooltiptext="&a11ypiToolbarButton.tooltip;" type="menu" insertbefore="PersonalToolbar">
-	<menupopup id="menu-button" onpopupshowing="a11ypi.onMenuPopUp(event);" onpopuphiding="a11ypi.clearMenu();">
-	</menupopup>
+  <toolbox id="navigator-toolbox">
+    <toolbar  label="Replace">
+      <toolbarbutton id="a11ypi-toolbar-button" label="Replace" tooltiptext="&a11ypiToolbarButton.tooltip;" type="menu" insertbefore="PersonalToolbar">
+	<menupopup id="menu-button" onpopupshowing="a11ypi.onMenuPopUp(event);" onpopuphiding="a11ypi.clearMenu();"/>
       </toolbarbutton>
     </toolbar>
   </toolbox>
   <menupopup id = "contentAreaContextMenu" oncommand="a11ypi.testContext();">
     <menuitem label="Re-narrate"/>
   </menupopup>
-<notificationbox flex="1" id="nbox">
-  
-</notificationbox>
-  
-
-
+  <notificationbox flex="1" id="nbox">
+    
+  </notificationbox>
+</overlay>  
