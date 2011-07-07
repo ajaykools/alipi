@@ -101,7 +101,7 @@ var a11ypi = {
 			    }
 			    else 
 			    {
-				f.innerHTML = content.document.getElementById(temp.id).innerHTML;
+				f.innerHTML = '<' + XPCNativeWrapper.unwrap(content.window.getSelection().focusNode.parentNode).tagName.toLowerCase() +'>' + sel.focusNode.wholeText + '</' + XPCNativeWrapper.unwrap(content.window.getSelection().focusNode.parentNode).tagName.toLowerCase() + '>';
 			    }
 
 			    content.document.getElementById('MyFrame').scrollIntoView();

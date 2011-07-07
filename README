@@ -1,8 +1,13 @@
 Release Notes:
 
-Version 1.0:
-	Sidebar has been removed for usability reasons.
-Version 1.1:
+**Version 1.0:**
+	Sidebar has been removed for usability reasons.  
+
+**Version 1.1:**
 	URL handling improved.
-Known Issues:
-      Right clicking on a link, causes to re-narrate.
+
+**Version 1.2:**
+	  Selected text can now be re-narrated.  Other elements are not selected.
+
+**Known Issues:**
+      Right clicking on a link, causes to re-narrate.  Found on Ubuntu-Firefox.
