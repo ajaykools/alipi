@@ -87,11 +87,11 @@ var a11ypi = {
 			else
 			{
 			    x = content.document.getElementById(temp.id).appendChild(el);
-			    el.setAttribute('src',"http://devel.virtual-labs.ac.in/alipi/rich/index.html?parent="+encodeURI(content.window.location.href+"&id="+temp.id));
+			    el.setAttribute('src',"http://devel.virtual-labs.ac.in/alipi/rich/index.html?parent="+encodeURIComponent(content.window.location.href)+"&id="+temp.id);
 			    tName = content.document.getElementById(temp.id).tagName
 			    el.setAttribute('id','MyFrame');
 			    el.setAttribute('width','100%');
-			    g = temp.innerHTML.replace('<iframe id="MyFrame" src="http://devel.virtual-labs.ac.in/alipi/rich/index.html?parent='+content.window.location.href+'&amp;id='+temp.id+'" width="100%"></iframe>','');
+			    g = temp.innerHTML.replace('<iframe id="MyFrame" src="http://devel.virtual-labs.ac.in/alipi/rich/index.html?parent='+encodeURIComponent(content.window.location.href)+'&amp;id='+temp.id+'" width="100%"></iframe>','');
 			    h = g.replace(/\s{2,}/g,"");
 			    alert("You Have selected "+h);
 			    f = el.contentDocument.getElementById('richText');
@@ -114,12 +114,12 @@ var a11ypi = {
 	    {
 		var st = content.document.getElementById(temp.parentNode.id);
 		content.document.getElementById(temp.parentNode.id).appendChild(el);
-		el.setAttribute('src',"http://devel.virtual-labs.ac.in/alipi/rich/index.html?parent="+encodeURI(content.window.location.href+"&id="+st.id));
+		el.setAttribute('src',"http://devel.virtual-labs.ac.in/alipi/rich/index.html?parent="+encodeURIComponent(content.window.location.href)+"&id="+st.id);
 		el.setAttribute('id','MyFrame');
 		el.setAttribute('width','100%');
 		st.style.borderColor = "red";
 		st.style.borderStyle = "dotted";
-		g = st.innerHTML.replace('<iframe id="MyFrame" src="http://devel.virtual-labs.ac.in/alipi/rich/index.html?parent='+content.window.location.href+'&amp;id='+st.id+'" width="100%"></iframe>','');
+		g = st.innerHTML.replace('<iframe id="MyFrame" src="http://devel.virtual-labs.ac.in/alipi/rich/index.html?parent='+encodeURIComponent(content.window.location.href)+'&amp;id='+st.id+'" width="100%"></iframe>','');
 		alert("You have selected the below content for re-narration"+g);
 		f = el.contentDocument.getElementById('richText');
 		f.innerHTML = g;
@@ -131,7 +131,7 @@ var a11ypi = {
 	{
 	    var st = content.document.getElementById(elementId);
 	    content.document.getElementsByTagName('BODY')[0].appendChild(el);
-	    el.setAttribute('src',"http://devel.virtual-labs.ac.in/alipi/rich/indeximg.html?parent="+encodeURI(content.window.location.href+"&id="+elementId));
+	    el.setAttribute('src',"http://devel.virtual-labs.ac.in/alipi/rich/indeximg.html?parent="+encodeURIComponent(content.window.location.href+"&id="+elementId));
 	    el.setAttribute('id','MyFrame');
 	    el.setAttribute('width','100%');
 	    st.style.borderColor = "red";
