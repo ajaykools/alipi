@@ -15,8 +15,8 @@
       </toolbarbutton>
     </toolbar>
   </toolbox>
-  <menupopup id = "contentAreaContextMenu" oncommand="a11ypi.testContext();">
-    <menuitem label="Re-narrate"/>
+  <menupopup id = "contentAreaContextMenu">
+    <menuitem label="Re-narrate" oncommand="a11ypi.testContext();"/>
   </menupopup>
   <notificationbox flex="1" id="nbox">
     
