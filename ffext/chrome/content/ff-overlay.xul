@@ -21,4 +21,7 @@
   <notificationbox flex="1" id="nbox">
     
   </notificationbox>
+  <hbox id="urlbar-icons">
+    <image id="a11ypi-toolbar-button" onclick="a11ypi.editContent();"/>
+  </hbox>
 </overlay>  

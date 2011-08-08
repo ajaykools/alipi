@@ -14,6 +14,10 @@ var a11ypi = {
 	elementId = e.originalTarget.id;
 	elementTagName = e.originalTarget.tagName;
     },
+    editContent: function(e)
+    {
+	
+    }
     test:function(e)
     {
 	if(e.originalTarget instanceof HTMLDocument)
