@@ -3,10 +3,10 @@
 <!-- <!ENTITY a11ypiContext.accesskey "Y"> -->
 <!ENTITY a11ypiToolbarButton.label "Replace">
 <!ENTITY a11ypiToolbarButton.tooltip "a11ypi">
-<!-- <!ENTITY a11ypiSidebar.label "Re-narrate"> -->
-<!-- <!ENTITY a11ypiSidebar.title "Alipi authoring tool"> -->
-<!-- <!ENTITY a11ypiSidebar.commandkey "E"> -->
-<!-- <!ENTITY a11ypiSidebar.modifierskey "shift accel"> -->
+<!ENTITY a11ypiSidebar.label "Re-narrate">
+<!ENTITY a11ypiSidebar.title "Alipi authoring tool">
+<!ENTITY a11ypiSidebar.commandkey "E">
+<!ENTITY a11ypiSidebar.modifierskey "shift">
 
 <!-- <!ENTITY a11ypiToolbar.name  "example"> -->
 <!-- <!ENTITY a11ypiToolbar.label "This is an example toolbar. You can hide it under View &gt; toolbars &gt; &a11ypiToolbar.name;"> -->

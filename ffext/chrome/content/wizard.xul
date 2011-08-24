@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<wizard id="theWizard" title="Secret Code Wizard"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  
+  <!-- <script> -->
+  <!--   function checkCode(){ -->
+  <!--   document.getElementById('theWizard').canAdvance = (document.getElementById('secretCode').value == "cabbage"); -->
+  <!--   } -->
+  <!-- </script> -->
+  
+  <wizardpage>
+    <label value="Select a language"/>
+    <menulist>
+      <menupopup>
+	<menuitem label="English"/>
+      </menupopup>
+    </menulist>
+  </wizardpage>
+  
+  <wizardpage>
+    <label value="Select a location"/>
+    <menulist>
+      <menupopup>
+	<menuitem label="India"/>
+      </menupopup>
+    </menulist>   
+  </wizardpage>
+  <statusbar>
+    <progressmeter mode="determined"/>
+  </statusbar>
+</wizard>

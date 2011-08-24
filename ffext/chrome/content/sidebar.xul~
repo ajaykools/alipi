@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://a11ypi/skin/overlay.css" type="text/css" ?>
+<!DOCTYPE page SYSTEM "chrome://a11ypi/locale/overlay.dtd">
+<page id="a11ypi-sidebar" title="&a11ypiSidebar.title;"  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" orient="down">
+
+</page>
+
