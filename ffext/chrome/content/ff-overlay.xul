@@ -35,9 +35,12 @@
   <!--   </vbox> -->
   <!-- </vbox> -->
   <popupset id="mainPopupSet">
-    <panel id="thepanel">
-      <button label="New message"/>
-    </panel>
+     <panel id="thepanel" flex="1" noautohide="true">
+           <hbox id="panelbox" flex="1">
+	<button label="Login"  id="login"/>
+	<button label="Save and Publish " id="msg"/>
+	 </hbox>
+      </panel>
   </popupset>
 
   <keyset id="mainKeyset">
